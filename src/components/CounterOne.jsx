@@ -1,3 +1,8 @@
+// This is a functional component
+
+// Functional components are stateless components. Which means they don't have
+// state.
+
 // The following code does not update the component because React renders
 // 'number' only once, when the page is loaded.
 
