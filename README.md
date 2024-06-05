@@ -10,4 +10,4 @@ https://stackoverflow.com/questions/4148499/how-to-style-a-checkbox-using-css
 
 ## Screenshots
 
-![image](https://github.com/stefanoturcarelli/react-states/assets/67341828/45b84c20-cd90-4e78-b21c-f41d94377407)
+![image](https://github.com/stefanoturcarelli/react-states/assets/67341828/c9c74e8e-ca0d-446e-9646-57b9947fb212)
