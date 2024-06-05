@@ -15,31 +15,33 @@ function CounterThree() {
   };
 
   return (
-    <section>
+    <>
       <h2>Functional component with a useState hook (best)</h2>
-      <div className="counter">
-        <input
-          type="button"
-          onClick={decrement}
-          value="Minus"
-          disabled={count === 0}
-        />
-        <input type="text" value={count} readOnly />
-        <input
-          type="button"
-          onClick={increment}
-          value="Plus"
-          disabled={count === 9}
-        />
-        <input
-          type="button"
-          onClick={() => setCount(0)}
-          value="Reset"
-          className="reset"
-          disabled={count === 0}
-        />
-      </div>
-    </section>
+      <section className="flex">
+        <div className="counter flex gap">
+          <input
+            type="button"
+            onClick={decrement}
+            value="Minus"
+            disabled={count === 0}
+          />
+          <input type="text" value={count} readOnly />
+          <input
+            type="button"
+            onClick={increment}
+            value="Plus"
+            disabled={count === 9}
+          />
+          <input
+            type="button"
+            onClick={() => setCount(0)}
+            value="Reset"
+            className="reset"
+            disabled={count === 0}
+          />
+        </div>
+      </section>
+    </>
   );
 }
 

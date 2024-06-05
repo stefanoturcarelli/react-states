@@ -29,14 +29,16 @@ class CounterTwo extends Component {
 
   render() {
     return (
-      <section>
+      <>
         <h2>Class component with a state object (better)</h2>
-        <div className="counter">
-          <input type="button" onClick={this.decrement} value="Minus" />
-          <input type="text" value={this.state.count} readOnly />
-          <input type="button" onClick={this.increment} value="Plus" />
-        </div>
-      </section>
+        <section className="flex">
+          <div className="counter flex gap">
+            <input type="button" onClick={this.decrement} value="Minus" />
+            <input type="text" value={this.state.count} readOnly />
+            <input type="button" onClick={this.increment} value="Plus" />
+          </div>
+        </section>
+      </>
     );
   }
 }

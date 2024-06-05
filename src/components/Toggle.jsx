@@ -7,15 +7,18 @@ function Toggle() {
   const [visible, setVisible] = useState(true);
 
   return (
-    <section className="flex">
+    <>
       <h2>Toggle feature with a hook</h2>
-      <input
-        type="checkbox"
-        onClick={() => setVisible(!visible)}
-        value={visible ? "Hide" : "Show"}
-      />
-      {visible && <p>Toggle me on and off</p>}
-    </section>
+      <section className="flex align-items gap">
+        <input
+          type="checkbox"
+          onClick={() => setVisible(!visible)}
+          value={visible ? "Hide" : "Show"}
+        />
+        {/* {visible && <p>Toggle me on and off</p>} */}
+        <h3 className={visible ? "visible" : "hidden"}>Now you see me</h3>
+      </section>
+    </>
   );
 }
 
