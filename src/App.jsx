@@ -5,6 +5,7 @@ import "./App.css";
 import CounterOne from "./components/CounterOne";
 import CounterTwo from "./components/CounterTwo";
 import CounterThree from "./components/CounterThree";
+import Toggle from "./components/Toggle";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -14,6 +15,7 @@ function App() {
       <CounterOne />
       <CounterTwo />
       <CounterThree />
+      <Toggle />
     </>
   );
 }

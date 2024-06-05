@@ -101,3 +101,15 @@ input[type="button"]:disabled {
   background-color: rgba(100, 108, 255, 0.239);
   transition: 0.3s all;
 }
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  background: #555;
+  border-radius: 3px;
+  accent-color: #646cff;
+}
+
+.flex {
+  display: flex;
+}
