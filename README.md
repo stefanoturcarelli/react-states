@@ -1,8 +1,9 @@
-# React + Vite
+# React States
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Styling Checkboxes with CSS: A Comprehensive Guide to Creating Unique and Customizable Designs
 
-Currently, two official plugins are available:
+https://paulund.co.uk/how-to-style-a-checkbox-with-css
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+How to style a checkbox using CSS
+
+https://stackoverflow.com/questions/4148499/how-to-style-a-checkbox-using-css
