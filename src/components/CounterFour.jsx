@@ -1,12 +1,40 @@
 // The useReducer hook
 
-// The useReducer hook is a more powerful alternative to the useState hook.
-// An object is usually the best choice for the initial state because it can
-// hold multiple values.
-// An object with 'named' constants
-// This 'types' object emulates an enum
+// useReducer() = Like useState on steroids. It's perfect for managing complex
+//              state logic in your React functional components.
+//              Think of it as having a super-organized manager for your state.
+//              With useReducer, you can handle complex state logic with ease
+//              and keep your code clean and maintainable. It's especially
+//              useful when you have multiple state variables or complex
+//              state transitions.
+
+// 1. Define a reducer function that handles your state transitions based on
+// the action type.
+// 2. useReducer takes this reducer function and an initial state, then returns
+// the current state and a dispatch function.
+// 3. The dispatch function is used to send actions to your reducer, which
+// then updates the state accordingly.
+
+// const [state, dispatch] = useReducer(reducer, initialState);
+
 // The reducer function takes in the current state and an action
 // and returns a new state based on the action
+
+// Reducer function:
+// function reducer(state, action) {
+//   switch (action.type) {
+//     case 'increment':
+//       return { count: state.count + 1 };
+//     case 'decrement':
+//       return { count: state.count - 1 };
+//     case 'reset':
+//       return { count: 0 };
+//     default:
+//       throw new Error('Unknown action type');
+//   }
+// }
+
+// The 'types' object is used to define the action types emulating an enum
 
 import React, { useReducer } from "react";
 
